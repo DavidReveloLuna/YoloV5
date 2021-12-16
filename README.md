@@ -21,8 +21,8 @@ Entrenaremos una red CNN Yolov5 para detectar armas
       -- labels
           --train
           --labels
-          
-![](https://github.com/DavidReveloLuna/YoloV5/blob/master/assets/Labels.png)
+
+<img src="https://github.com/DavidReveloLuna/YoloV5/blob/master/assets/Labels.png" width="500">
 
 ## 2. Entrenamiento de la red 
 
@@ -51,5 +51,5 @@ Finalmente ejecutamos la linea de entrenamiento
 
     $ !python detect.py --weights /content/yolov5/runs/train/exp/weights/best.pt --img 640 --conf 0.25 --source "../guntest.jpg"
     $ display.Image(filename='../guntest.jpg', width=600)
-      
-![](https://github.com/DavidReveloLuna/YoloV5/blob/master/assets/gundetection.jpg)
+
+<img src="https://github.com/DavidReveloLuna/YoloV5/blob/master/assets/gundetection.jpg" width="500">
