@@ -22,6 +22,8 @@ Entrenaremos una red CNN Yolov5 para detectar armas
           --train
           --labels
           
+![](https://github.com/DavidReveloLuna/YoloV5/blob/master/assets/Labels.png)
+
 ## 2. Entrenamiento de la red 
 
 Seguiremos la guía del sitio oficial [YoloV5](https://github.com/ultralytics/yolov5)
