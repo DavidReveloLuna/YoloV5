@@ -17,10 +17,10 @@ Entrenaremos una red CNN Yolov5 para detectar armas
     --train_data
       -- images
           --train
-          --labels
+          --val
       -- labels
           --train
-          --labels
+          --val
 
 <img src="https://github.com/DavidReveloLuna/YoloV5/blob/master/assets/Labels.png" width="500">
 
