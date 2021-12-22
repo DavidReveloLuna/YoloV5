@@ -32,7 +32,7 @@ Sobre el codgio del enlace anterior haremos las siguientes modificaciones
       
     !unzip -q ../train_data.zip -d ../
     
-Creamos un archivo custom.yaml con la siguiente informacion, y guardar en la ruta yolov5/data
+Creamos un archivo customdata.yaml con la siguiente informacion, y guardar en la ruta yolov5/data
       
     path: ../train_data  # dataset root dir
     train: ../train_data/images/train/  # train images (relative to 'path') 128 images
