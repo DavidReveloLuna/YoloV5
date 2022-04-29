@@ -53,3 +53,19 @@ Finalmente ejecutamos la linea de entrenamiento
     $ display.Image(filename='../guntest.jpg', width=600)
 
 <img src="https://github.com/DavidReveloLuna/YoloV5/blob/master/assets/gundetection.jpg" width="500">
+
+
+## 4. Prueba en entorno local
+
+Vamos a crear un entorno usando conda, y en ese entorno vamos a instalar los requerimientos adecuados. Luego probaremos la inferencia usando la cámara web.
+
+[Miniconda Download](https://docs.conda.io/en/latest/miniconda.html#windows-installers)
+
+    $ conda create -n YoloV5Test
+    $ conda install python=3.7
+    $ pip install jupyter
+    $ git clone https://github.com/ultralytics/yolov5
+    $ cd yolov5
+    $ pip install -qr requirements.txt
+
+Luego vamos a abrir el archivo yolov5video.ipynb y ejecutamos la inferencia en video.
