@@ -62,6 +62,7 @@ Vamos a crear un entorno usando conda, y en ese entorno vamos a instalar los req
 [Miniconda Download](https://docs.conda.io/en/latest/miniconda.html#windows-installers)
 
     $ conda create -n YoloV5Test
+    $ conda activate YoloV5Test
     $ conda install python=3.7
     $ pip install jupyter
     $ git clone https://github.com/ultralytics/yolov5
