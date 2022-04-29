@@ -55,7 +55,7 @@ Finalmente ejecutamos la linea de entrenamiento
 <img src="https://github.com/DavidReveloLuna/YoloV5/blob/master/assets/gundetection.jpg" width="500">
 
 
-## 4. Prueba en entorno local
+## 4. Prueba en entorno local en video
 
 Vamos a crear un entorno usando conda, y en ese entorno vamos a instalar los requerimientos adecuados. Luego probaremos la inferencia usando la cámara web.
 
