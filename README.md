@@ -65,6 +65,8 @@ Vamos a crear un entorno usando conda, y en ese entorno vamos a instalar los req
     $ conda activate YoloV5Test
     $ conda install python=3.7
     $ pip install jupyter
+    $ conda install ipykernel
+    $ python -m ipykernel install --user --name YoloV5Test --display-name "YoloV5Test"
     $ git clone https://github.com/ultralytics/yolov5
     $ cd yolov5
     $ pip install -qr requirements.txt
