@@ -70,5 +70,6 @@ Vamos a crear un entorno usando conda, y en ese entorno vamos a instalar los req
     $ git clone https://github.com/ultralytics/yolov5
     $ cd yolov5
     $ pip install -qr requirements.txt
+    $ jupyter notebook
 
 Luego vamos a abrir el archivo yolov5video.ipynb y ejecutamos la inferencia en video.
