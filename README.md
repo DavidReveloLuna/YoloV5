@@ -76,9 +76,9 @@ Luego vamos a abrir el archivo yolov5video.ipynb y ejecutamos la inferencia en v
 
 ## 5. Pytorch usando GPU NVIDIA
 
-[Comprobar compatibilidad con GPU](https://developer.nvidia.com/cuda-gpus)
-[Verificar compatibilidad de librerias y toolkit de cuda] (https://pytorch.org/get-started/previous-versions/)
-[Descargar toolkit de cuda](https://developer.nvidia.com/cuda-11.3.0-download-archive)
+    [Comprobar compatibilidad con GPU](https://developer.nvidia.com/cuda-gpus)
+    [Verificar compatibilidad de librerias y toolkit de cuda] (https://pytorch.org/get-started/previous-versions/)
+    [Descargar toolkit de cuda](https://developer.nvidia.com/cuda-11.3.0-download-archive)
 
     $ pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
     $ import torch
